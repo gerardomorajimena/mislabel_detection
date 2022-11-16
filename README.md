@@ -19,9 +19,9 @@ pip install package-name
 
 ## Main Files
 
-There are three main notebooks to complete the full milabel detection process:
+There are three main notebooks to complete the full mislabel detection process:
 
-1. Train_Autoencoder.ipynb -> Use this notebook to train and save your convolutional autoencoder. It automatically saves encoder, decoder and full model to the file path. It also applies some visualization techniques the compressed encoded features.
+1. Train_Autoencoder.ipynb -> Use this notebook to train and save your convolutional autoencoder. It automatically saves encoder, decoder and full model to the file path. It also applies some visualization techniques to the compressed encoded features.
 
 2. Outlier_Detection.ipynb -> Notebook meant to detail the procedure of outlier detection and removal. It is done only for your chosen class. For the full automatized process use the full_mislabeled_removel.py file, which also gives the option to automatically apply PCA based on the amount of variance you wish to keep.
 
