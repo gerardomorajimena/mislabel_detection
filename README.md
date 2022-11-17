@@ -25,7 +25,7 @@ There are three main notebooks to complete the full mislabel detection process:
 
 2. Outlier_Detection.ipynb -> Notebook meant to detail the procedure of outlier detection and removal. It is done only for your chosen class. For the full automatized process use the full_mislabeled_removel.py file, which also gives the option to automatically apply PCA based on the amount of variance you wish to keep.
 
-3. Simple_Classifier.ipynb -> This notebook trains a multiclass classifier on the selected dataset. It's not meant to train an accurate classifier, but rather use it as a tool to asses the quality of your dataset. Train first a model on your original dataset, and then a new dataset resulting from the removal of the DBSCAN outliers. Keep architecture and training procedures equal for both datasets for better comparasions.
+3. Simple_Classifier.ipynb -> This notebook trains a multiclass classifier on the selected dataset. It's not meant to train an accurate classifier, but rather use it as a tool to asses the quality of your dataset. Train first a model on your original dataset, and then on a new dataset resulting from the removal of the DBSCAN outliers. Keep architecture and training procedures equal for both datasets for better comparasions.
 
 
 
