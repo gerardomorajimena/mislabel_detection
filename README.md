@@ -48,8 +48,8 @@ There are three main notebooks to complete the full mislabel detection process:
 - So far, the autoencoder is trained on the entire dataset, and clustering is perform on each individual class (on their latent representations, to be exact). Is this optimal? would, for instance, training an autoencoder on each class independently work better? what about finding clusters on all classes simultaneously, rather than one by one?
 - Could be improve the results by performing this process iteratively? i.e, performing the same autoencoder-clustering steps several times one after the other?
 - What about training a binary classifier with the removed and clean datasets that learns what's a goood sample and what's not?
-- Could be expand upon the current methodology by suggesting a class for each sample?
-
+- Could we expand upon the current methodology by suggesting a class for each sample?
+- For some applications we might need to use as much data as possible. Since the removed samples are not always wrong-labeled, a very interesting approach could be to still use the removed dataset, but downweighting it with respect to clean dataset. The weights could be, for instance, proportional to the probability that each removed sample was indeed an outlier in the feature space.
 
 
 
