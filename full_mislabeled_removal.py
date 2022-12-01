@@ -67,7 +67,7 @@ def apply_PCA(X):
             PC_kept = PC
             break
 
-    pca = PCA(n_components=10)
+    pca = PCA(n_components = PC_kept)
     return pca.fit_transform(X_compressed_standard)
 
 # extract the image array and class name
